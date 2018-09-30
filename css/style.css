@@ -1,11 +1,38 @@
 body {
-    background-color: lightblue;
+    background-color: white;
+    padding: 80px;
 }
-h1 {
-    color: white;
-    text-align: center;
+
+.col-sm{
+  text-align: center;
 }
+
+#linkNav{
+  padding-top: 28px;
+  padding-bottom: 28px;
+  text-align: center;
+}
+
 p {
     font-family: verdana;
     font-size: 20px;
+}
+
+#active, #active:hover{
+  color: #a8a8a8;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#link{
+  color: #666;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#link:hover{
+  color:#a8a8a8;
+  text-decoration: none;
 }
