@@ -1,6 +1,9 @@
 body {
   background-color: white;
   padding: 80px;
+  font-family: 'Helvetica', Ariel, sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 
 .col-sm {
@@ -8,7 +11,7 @@ body {
 }
 
 #linkNav {
-  font-family: 'Crimson Text', serif;
+  font-family: 'Helvetica', Ariel, sans-serif;
   font-size: 14px;
   padding-top: 28px;
   padding-bottom: 28px;
@@ -17,7 +20,6 @@ body {
 }
 
 p {
-  font-family: verdana;
   font-size: 20px;
 }
 
