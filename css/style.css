@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 
-#linkNav {
+#Nav {
   font-family: 'Helvetica', Ariel, sans-serif;
   font-size: 14px;
   padding-top: 28px;
@@ -23,22 +23,44 @@ p {
   font-size: 20px;
 }
 
-#active,
-#active:hover {
-  color: rgb(168, 168, 168);
-  text-decoration: none;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-#link {
+.link {
   color: rgb(102, 102, 102);
   text-decoration: none;
+  padding: 5px;
+}
+
+.link:hover {
+  color: rgb(168, 168, 168);
+  text-decoration: none;
+}
+.active,
+.active:hover {
+  color: rgb(168, 168, 168);
+  text-decoration: none;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-#link:hover {
-  color: rgb(168, 168, 168);
-  text-decoration: none;
+@media (max-width: 576px) { 
+  body {
+    padding:5px;
+  }
+ #logo {
+   width: 100%;
+   height: auto;
+ }
+ .link {
+
+ }
+ .video {
+   width: 100%;
+   height: auto;
+ }
+ .image {
+   display:none;
+ }
+ #nav-links {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
 }
