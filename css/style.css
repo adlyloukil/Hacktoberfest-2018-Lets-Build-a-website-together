@@ -1,38 +1,42 @@
 body {
-    background-color: white;
-    padding: 80px;
+  background-color: white;
+  padding: 80px;
 }
 
-.col-sm{
+.col-sm {
   text-align: center;
 }
 
-#linkNav{
+#linkNav {
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
   padding-top: 28px;
   padding-bottom: 28px;
   text-align: center;
+  white-space: nowrap;
 }
 
 p {
-    font-family: verdana;
-    font-size: 20px;
+  font-family: verdana;
+  font-size: 20px;
 }
 
-#active, #active:hover{
-  color: #a8a8a8;
+#active,
+#active:hover {
+  color: rgb(168, 168, 168);
   text-decoration: none;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-#link{
-  color: #666;
+#link {
+  color: rgb(102, 102, 102);
   text-decoration: none;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-#link:hover{
-  color:#a8a8a8;
+#link:hover {
+  color: rgb(168, 168, 168);
   text-decoration: none;
 }
