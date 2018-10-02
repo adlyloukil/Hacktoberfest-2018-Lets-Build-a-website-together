@@ -1,13 +1,13 @@
 body {
   background-color: white;
-  padding: 80px;
   font-family: 'Helvetica', Ariel, sans-serif;
   font-weight: 400;
   letter-spacing: 2px;
 }
 
-.col-sm {
-  text-align: center;
+.header-wrap {
+  max-width: 430px;
+  margin: 0 auto;
 }
 
 #linkNav {
@@ -41,4 +41,37 @@ p {
 #link:hover {
   color: rgb(168, 168, 168);
   text-decoration: none;
+}
+
+/* Responsive Breakpoints */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  body {
+    padding: 20px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    padding: 40px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  body {
+    padding: 80px;
+  }
+  .page-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
