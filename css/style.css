@@ -1,44 +1,91 @@
 body {
   background-color: white;
-  padding: 80px;
   font-family: 'Helvetica', Ariel, sans-serif;
   font-weight: 400;
   letter-spacing: 2px;
 }
 
-.col-sm {
-  text-align: center;
+.header-wrap {
+  max-width: 430px;
+  margin: 0 auto;
 }
 
 #linkNav {
   font-family: 'Helvetica', Ariel, sans-serif;
-  font-size: 14px;
+  font-size: 8px;
   padding-top: 28px;
   padding-bottom: 28px;
   text-align: center;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 p {
   font-size: 20px;
 }
 
-#active,
-#active:hover {
+.active,
+.active:hover {
+  display: inline-block;
   color: rgb(168, 168, 168);
   text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-#link {
+.link {
+  display: inline-block;
   color: rgb(102, 102, 102);
   text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-#link:hover {
+.link:hover {
   color: rgb(168, 168, 168);
   text-decoration: none;
+}
+
+/* Responsive Breakpoints */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  body {
+    padding: 20px;
+  }
+
+  #linkNav {
+    font-size: 12px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    padding: 40px;
+  }
+
+  #linkNav {
+    font-size: 14px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  body {
+    padding: 80px;
+  }
+  .page-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
