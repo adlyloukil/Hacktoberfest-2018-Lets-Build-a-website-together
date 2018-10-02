@@ -81,6 +81,14 @@ p {
     padding-top: 10%;
     text-align: center;
   }
+  .vr {
+    border-left: 1px solid rgb(175, 155, 155);
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   #links > div {
     display: inline-flex;
     font-size: 12px;
