@@ -12,33 +12,39 @@ body {
 
 #linkNav {
   font-family: 'Helvetica', Ariel, sans-serif;
-  font-size: 14px;
+  font-size: 8px;
   padding-top: 28px;
   padding-bottom: 28px;
   text-align: center;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 p {
   font-size: 20px;
 }
 
-#active,
-#active:hover {
+.active,
+.active:hover {
+  display: inline-block;
   color: rgb(168, 168, 168);
   text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-#link {
+.link {
+  display: inline-block;
   color: rgb(102, 102, 102);
   text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-#link:hover {
+.link:hover {
   color: rgb(168, 168, 168);
   text-decoration: none;
 }
@@ -50,12 +56,20 @@ p {
   body {
     padding: 20px;
   }
+
+  #linkNav {
+    font-size: 12px;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   body {
     padding: 40px;
+  }
+
+  #linkNav {
+    font-size: 14px;
   }
 }
 
