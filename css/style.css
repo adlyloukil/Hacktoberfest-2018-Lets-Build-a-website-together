@@ -18,7 +18,9 @@ body {
   text-align: center;
   /* white-space: nowrap; */
 }
-
+#smallNav {
+  display: none;
+}
 p {
   font-size: 20px;
 }
@@ -52,13 +54,45 @@ p {
 /* Responsive Breakpoints */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { 
+
+
+
+@media (max-width: 767px) { 
   body {
     padding: 20px;
   }
 
   #linkNav {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 576px) { 
+  body {
+    padding: 15px;
+  }
+
+  #linkNav {
+    display: none;
+  }
+
+  #smallNav {
+    display: block;
+    padding-top: 10%;
+    text-align: center;
+  }
+  #links > div {
+    display: inline-flex;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #links {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
   }
 }
 
