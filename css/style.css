@@ -49,6 +49,19 @@ p {
   text-decoration: none;
 }
 
+.caret {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+}
+
+#navbarDropdown {
+  color: #a8a8a8
+}
+
 /* Responsive Breakpoints */
 
 /* Small devices (landscape phones, 576px and up) */
