@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <link rel="shortcut icon" type="image/x-icon" href="files/favicon.ico"/>
+
   <!-- Web Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet"> 
 
@@ -17,20 +19,22 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container py-3">
 
     <!-- Header -->
     <div class="row">
       <div class="col text-center">
-        <div class="header-wrap">
+        <div class="header-wrap px-4 px-lg-0">
           <img width="430" height="180" class="img-fluid" src="./files/thesealingcompany.png" />
         </div>
       </div>
     </div>
 
     <!-- Nav -->
-    <div id="linkNav" class="row align-items-center justify-content-center">
-      <div class="col">
+
+    <div id="linkNav" class="row align-items-center justify-content-center mt-4">
+      <div class="col d-none d-md-block">
+
         <a class="active" href="#">HOME</a>
         <a class="link" href="#">FAQ</a>
         <a class="link" href="#">PROJECTS</a>
@@ -39,6 +43,21 @@
         <a class="link" href="#">WATER GUN</a>
         <a class="link" href="#">SLIPPERS</a>
       </div>
+      <li class="nav-item dropdown d-xs d-md-none w-100 px-3">
+        <a class="nav-link text-left" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          NAVIGATION
+          <span class="caret float-right"></span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">HOME</a>
+          <a class="dropdown-item" href="#">FAQ</a>
+          <a class="dropdown-item" href="#">PROJECTS</a>
+          <a class="dropdown-item" href="#">GALLERY</a>
+          <a class="dropdown-item" href="#">JOBS</a>
+          <a class="dropdown-item" href="#">WATER GUN</a>
+          <a class="dropdown-item" href="#">SLIPPERS</a>
+        </div>
+      </li>
     </div>
     <div id="smallNav">
       <a class="active" href="#">HOME</a>
@@ -58,9 +77,9 @@
     </div>
 
     <!-- Body -->
-    <div class="page-wrap">
+    <div class="page-wrap pt-3 pt-lg-5 pb-5 mb-5">
 
-      <div class="row mb-5">
+      <div class="row mb-sm-0 mb-lg-5 pb-5">
         <div class="col">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe width="800" height="450" class="embed-responsive-item" src="https://www.youtube.com/embed/RxabLA7UQ9k" frameborder="0" allow="autoplay; encrypted-media"
@@ -69,7 +88,7 @@
         </div>
       </div>
 
-      <div class="row mb-5">
+      <div class="row mb-sm-0 mb-lg-5 pb-5">
         <div class="col">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe width="800" height="450" class="embed-responsive-item" src="https://www.youtube.com/embed/fFtGfyruroU" frameborder="0" allow="autoplay; encrypted-media"
@@ -78,7 +97,7 @@
         </div>
       </div>
 
-      <div class="row mb-5">
+      <div class="row mb-sm-0 mb-lg-5 pb-5">
         <div class="col">
           <img width="800" height="1066" class="img-fluid" src="./files/2448x3264.png" />
         </div>
