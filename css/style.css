@@ -20,7 +20,9 @@ body {
   text-align: center;
   /* white-space: nowrap; */
 }
-
+#smallNav {
+  display: none;
+}
 p {
   font-size: 20px;
 }
@@ -67,7 +69,9 @@ p {
 /* Responsive Breakpoints */
 
 /* Small devices (landscape phones, 576px and up) */
+
 @media (min-width: 576px) {
+  
   body {
     padding: 20px;
   }
@@ -81,6 +85,43 @@ p {
   }
   .header-wrap img {
     max-width: 200px;
+  }
+}
+
+@media (max-width: 576px) { 
+  body {
+    padding: 15px;
+  }
+
+  #linkNav {
+    display: none;
+  }
+
+  #smallNav {
+    display: block;
+    padding-top: 10%;
+    text-align: center;
+  }
+  .vr {
+    border-left: 1px solid rgb(175, 155, 155);
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #links > div {
+    display: inline-flex;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #links {
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
   }
 }
 
