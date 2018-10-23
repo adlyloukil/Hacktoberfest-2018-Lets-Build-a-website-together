@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+
+.text-container{
+    color:#424242;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.text-container p{
+    font-size: 16px;
+    margin: 30px;
+}
+
+.contact{
+    margin-top: 100px !important;
+    font-style: italic;
+    color: #121212 !important;
+    text-decoration: underline;
+}
