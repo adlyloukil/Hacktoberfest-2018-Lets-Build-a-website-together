@@ -18,3 +18,20 @@
     color: #121212 !important;
     text-decoration: underline;
 }
+
+@media (max-width: 576px) { 
+    /* responsive-text styling */
+    .content h2{
+      font-size: 20px;
+    }
+  
+    .content p{
+      font-size: 14px;
+      margin: 20px;
+    }
+
+    .contact{
+        margin-top: 60px !important;
+        margin-bottom: -40px !important;
+    }
+  }
